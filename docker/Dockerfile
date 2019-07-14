@@ -1,5 +1,8 @@
 FROM node:10
 RUN npm install
+RUN apt-get update
+RUN apt-get install vim
+RUN apt-get clean
 RUN useradd -m -u 501 ericr
 RUN mkdir /app
 RUN chown ericr:20 /app
