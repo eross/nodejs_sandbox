@@ -14,7 +14,7 @@ app.use('/js', express.static(path.join(__dirname, '/node_modules/bootstrap/dist
 app.use('/js', express.static(path.join(__dirname, '/node_modules/jquery/dist')));
 app.use('/js', express.static(path.join(__dirname, '/node_modules/popper.js/dist/umd')));
 app.set('views','./src/views');
-app.set('view engine', 'pug');
+app.set('view engine', 'ejs');
 
 app.get('/', function(req, res){
     console.log("requested '/'")
