@@ -1,0 +1,16 @@
+{
+  "name": "chapt2",
+  "version": "1.0.0",
+  "description": "chapt2 efficient nodejs",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
